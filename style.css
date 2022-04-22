@@ -1,0 +1,50 @@
+/* style.css */
+body {
+    background-color: black;
+}
+
+/*Change color of bullets; found online */
+li::marker {
+    color: red;
+}
+
+h1 {
+    color: hsl(0, 0%, 40%);
+    text-align: center;
+    font-family: "Courier New", "Brush Script MT";
+
+}
+
+#cooking_image {
+    max-width: 600px;
+    max-height: auto;
+    
+}
+
+#lasagna,
+#spaghetti,
+#tacos {
+    max-width: 150px;
+    max-height: auto;
+}
+
+#spaghetti_feat_pic,
+#tacos_feat_pic {
+    max-width: auto;
+    max-height: 420px;
+}
+
+h1,
+h3,
+p,
+li {
+    color: white;
+}
+
+.recipe_link {
+color:white
+
+}
+
+
+/*Add classes to image to allow sizing and positioning with CSS; Add images with classes for each recipe link to make webpage look nicer. */
