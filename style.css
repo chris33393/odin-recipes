@@ -12,15 +12,21 @@ h1 {
     color: hsl(0, 0%, 40%);
     text-align: center;
     font-family: "Courier New", "Brush Script MT";
+}
 
+ul {
+    text-align: center;
+}
+
+li {
+    display: inline;
 }
 
 #cooking_image {
-    max-width: 60%;
+    max-width: 50%;
     max-height: auto;
     display: block;
     margin: auto;
-    
 }
 
 #lasagna,
