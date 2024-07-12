@@ -16,8 +16,10 @@ h1 {
 }
 
 #cooking_image {
-    max-width: 600px;
+    max-width: 60%;
     max-height: auto;
+    display: block;
+    margin: auto;
     
 }
 
