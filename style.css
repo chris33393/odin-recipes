@@ -14,32 +14,29 @@ h1 {
     font-family: "Courier New", "Brush Script MT";
 }
 
-ul {
+#recipes {
     text-align: center;
+    display: inline;
+    padding-left: 5%;
 }
 
-li {
+/*need specifity; fixes homepage but breaks lists on recipe pages!*/
+/* li {
     display: inline;
-}
+} */
 
 #cooking_image {
     max-width: 50%;
     max-height: auto;
     display: block;
     margin: auto;
+    padding-bottom: 25px;
 }
 
-#lasagna,
-#spaghetti,
-#tacos {
-    max-width: 150px;
-    max-height: auto;
-}
-
-#spaghetti_feat_pic,
-#tacos_feat_pic {
+.home {
+    display: inline;
     max-width: auto;
-    max-height: 420px;
+    max-height: 200px;
 }
 
 h1,
@@ -51,7 +48,6 @@ li {
 
 .recipe_link {
 color:white
-
 }
 
 
