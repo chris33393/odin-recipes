@@ -22,8 +22,10 @@ h1 {
 
 /*trying to make container*/
 #home_recipes {
-    display: inline;
+    display: inline-flex;
     margin: auto;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 /*need specifity; fixes homepage but breaks lists on recipe pages!*/
